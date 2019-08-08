@@ -1,0 +1,186 @@
+html, body{
+
+  background-image: url(../imgPag/color2.png);
+  background-position: no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  align-content: center;
+  color: #F0F0F0;
+  font-size: large;
+  }
+
+h2, h3{
+    font-family:Georgia,"Times New Roman",Times,serif;
+    font-weight:normal;
+    text-shadow:0 0 1px #000;
+    color:#F0F0F0;
+    font-size:2em;
+    padding:4px 0 0;
+    text-transform:capitalize;
+    line-height:1.2em;
+    margin:0 0 10px;
+}
+
+#prodN{
+  font-weight:bold;
+  font-size: x-large
+}
+
+button {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#resetear {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#bEnviar{
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        padding: 10px;
+        background:#638cb5;
+        border:0px;
+        margin: 0 10px 20px 0;
+       }
+
+
+.textbox
+         {
+         border: 1px solid #DBE1EB;
+         font-size: 16px;
+         font-family: Arial, Verdana;
+         padding-left: 6px;
+         padding-right: 6px;
+         padding-top: 9px;
+         padding-bottom: 9px;
+         border-radius: 3px;
+         -moz-border-radius: 3px;
+         -webkit-border-radius: 3px;
+         -o-border-radius: 3px;
+         background: #FFFFFF;
+         background: linear-gradient(left, #FFFFFF, #F7F9FA);
+         background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+         background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+         background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+         color: #2E3133;
+}
+
+.textbox:focus
+{
+  color: #2E3133;
+  border-color: #FBFFAD;
+}
+
+
+table {
+    overflow: hidden;
+    border: 1px solid #d3d3d3;
+    background: #fefefe;
+    width: 70%;
+    margin: 5% auto 0;
+    border-radius:5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+th, td {padding:18px 28px 18px; text-align:center; }
+th {padding-top:22px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+tr.odd-row td {background:#f6f6f6;}
+td.first, th.first {text-align:left}
+td.last {border-right:none;}
+
+td {
+    background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+    background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+}
+tr.odd-row td {
+    background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+    background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+}
+th {
+    background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+    background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+}
+tr:first-child th.first {
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-left-radius:5px; /* Saf3-4 */
+}
+tr:first-child th.last {
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px; /* Saf3-4 */
+}
+tr:last-child td.first {
+    -moz-border-radius-bottomleft:5px;
+    -webkit-border-bottom-left-radius:5px; /* Saf3-4 */
+}
+tr:last-child td.last {
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+}
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.boton{
+            text-align:center;
+            text-decoration: none;
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
+      display:inline-block;
+            color: #FFF;
+            background: #7F8C8D;
+            padding: 15px 30px;
+            white-space: nowrap;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            margin: 10px 5px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -ms-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+}
+
+.verde{
+  background: #2ECC71;
+}
+
+.verde:hover{
+  background: #27AE60;
+}
+
+.naranja{
+  background: #E67E22;
+}
+
+.naranja:hover{
+  background: #D35400;
+}
+
+.rojo{
+  background: #E74C3C;
+}
+
+.rojo:hover{
+  background: #C0392B;
+}

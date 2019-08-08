@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title> Procesar </title>
+<script language="javascript">
+      dir = location.search.substring(1,location.search.length);
+      vars = dir.split("&");         // creacion de un arreglo var=valor
+      for (i=0; i<vars.length; i++) {
+           a = vars[i].split("=");   // crea un arreglo de 2 campos, [0]= name y [1]= valor
+           alert(a[0]+"="+a[1]);
+         }
+</script>
+</head>
+
+<body>
+</body>
+</html>
